@@ -1,7 +1,8 @@
 ﻿using Tyuiu.KorovinMK.Sprint0.Task6.V0.Lib;
 namespace Tyuiu.KorovinMK.Sprint0.Task6.V0
 {
-    class Program
+    class Program           
+
     {
         static void Main(string[] args)
         {
@@ -11,6 +12,7 @@ namespace Tyuiu.KorovinMK.Sprint0.Task6.V0
             Console.WriteLine("Разность элементов массива = " + DataService.SubstractionArray(numsArray));
 
             Console.WriteLine("Произведение элементов массива = " + DataService.MultiplicationArray(numsArray));
+
 
             Console.ReadKey();
 
